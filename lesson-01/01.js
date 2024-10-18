@@ -2,13 +2,12 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum;
-let count = 1; 
+let sum = 0;
+let start = 0;
+const end = 20;
 
-while(count <= 20){
-  count = count + (count + 1);
-  sum = count;
-  alert(sum)
+while(start < end){
+  start++;
+  sum = sum + start;
 }
-console.log(sum);
 
